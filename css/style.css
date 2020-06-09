@@ -1,0 +1,44 @@
+body{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: #020230e0 ;
+    margin: 0 0.2%;
+   
+}
+
+h1{
+    color: azure;
+}
+
+/* .flex-container{
+    display:flex;
+    flex-direction:row;
+    justify-content:space-around;
+    text-align: center; 
+} */
+
+.header-img-boy{
+    margin-top:3rem;
+    margin-left:0;
+    height:40%;
+    width:40%;
+}
+/* .left{
+    order:1;
+    flex-grow: 3;
+    
+}
+.title{
+    order:2;
+    flex-grow:1;
+    
+}
+.right{
+    order: 3;
+    flex-grow:10;
+ }
+ */
+
