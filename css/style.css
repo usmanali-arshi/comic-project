@@ -1,44 +1,109 @@
-body{
+*{
     padding:0;
     margin:0;
+    box-sizing: border-box;
+}
+body{
+    justify-content: center;
+}
+h1{
+    font-family: 'Nosifer', cursive;
+    font-size: 4rem;
+    color:white;
+    padding-top: 1.5em;
+    text-align: center;
+}
+nav ul {
+    text-align: justify;
+    min-width: 500px;
+    z-index: 5;
+    width: 100%;
+    list-style-type: none;
+    margin: 0;
+    margin-left: 0.0%;
+    padding: 0.5rem;
+    overflow: hidden;
+    padding-top: 0;
+    
+  }
+  li {
+    display: inline-block;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding:0.7rem 6rem ;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #222;
+  }
+  /* li h2{
+      z-index: 3;
+      color:white;
+      text-align: center;
+      
+  } */
+#mynav{
+    text-align: center;
+    background-color: black;
 }
 
-header{
-    background-color: #020230e0 ;
-    margin: 0 0.2%;
+.header{
+    height: 20rem;
+    width:99.5%;
+    margin-top: 0.05%;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("../images/header-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+.container{
+    position: relative;
+    margin-top: 2%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 89.3rem;
+    height: 28rem;
+    border: 4px solig white;
+}
+.container .box{
+    position: absolute;
+    width:100%;
+    height:100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.container .box:nth-child(1){
+    background: url("../images/header-bg 1.png");
+    
+}
+.container .box:nth-child(2){
+    background: url("../images/header-bg 2.png");
+    z-index: 2;
+    transition: 0.5s;
+    clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%);
+}
+.container .box:nth-child(1):hover{
+    cursor: pointer;
+}
+.container .box:nth-child(2):hover{
+    clip-path: polygon(100% 0, 0 0, 0 100%, 100% 100%);
+    cursor: pointer;
+}
+.container .box:nth-child(1):hover ~
+.box:nth-child(2){
+    clip-path: polygon(0 0, 0 0, 0 100%, 0% 100%);
    
 }
 
-h1{
-    color: azure;
-}
+#eye{
+    height:20%;
+    width: auto;
 
-/* .flex-container{
-    display:flex;
-    flex-direction:row;
-    justify-content:space-around;
-    text-align: center; 
-} */
-
-.header-img-boy{
-    margin-top:3rem;
-    margin-left:0;
-    height:40%;
-    width:40%;
 }
-/* .left{
-    order:1;
-    flex-grow: 3;
-    
-}
-.title{
-    order:2;
-    flex-grow:1;
-    
-}
-.right{
-    order: 3;
-    flex-grow:10;
- }
- */
-

@@ -1,32 +1,44 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Comic Strip</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+	<link href="https://fonts.googleapis.com/css2?family=Nosifer&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<script src="js/jquery-3.5.1.min.js"></script>
+
 </head>
 <body>
 	<header>
-		<div class="flex-container">
-
-			<div class="" id="flex-child left">
-				<img src="images/header-boy.png" class="header-img-boy" alt="image of a boy dreaming">
-			</div>	
-			<div class="title">
-				<h1>BLah BLah jkbkjbjk</h1>
-			</div>
-			
-			<div class="" id="flex-child right">
-				<img src="images/header-girl.png" class="header-img-boy" alt="image of a boy dreaming">
-			</div>
+		
+		<div class="header">
+			<nav id="mynav"> 
+				<li class="left"><a href="info.html"> Home </a></li>
+				
+				<li class="left"><a href="#cast"> About </a></li>
+				
+				<li class="right"><a href="#quotes"> Creators </a></li>
+				
+				<li class="right"><a href="#philosophy"> Connect </a></li>
+	  
+				
+			  </ul>
+			</nav>
+			<h1>Forbidden Love</h1>
 		</div>
 	</header>
-	
+	<div class="container">
+		<div class="box" onclick="openPage('boyStory.html')"></div>
+		<div class="box" onclick="openPageNew('girlStory.html')"></div>
 
-	<div>
-		<div class="" id=""></div>
-		<div class="" id=""></div>
 	</div>
+	<footer>
 
+
+	</footer>
+	
 	<script src="js/script.js"></script>
 </body>
 </html>
