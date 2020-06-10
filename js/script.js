@@ -51,7 +51,7 @@ function logKey(e) {
 
   // }
 
-  else if(panelPArt==5){
+  else if(panelPArt==4){
       alert("Go to next page");
   }
 }
