@@ -25,6 +25,7 @@ nav ul {
     overflow: hidden;
     padding-top: 0;
     
+    
   }
   li {
     display: inline-block;
@@ -34,7 +35,7 @@ nav ul {
     display: block;
     color: white;
     text-align: center;
-    padding:0.7rem 6rem ;
+    padding:0.2rem 6rem ;
     text-decoration: none;
   }
   
@@ -50,6 +51,7 @@ nav ul {
 #mynav{
     text-align: center;
     background-color: black;
+    font-family: 'Sriracha', cursive;
 }
 
 .header{
@@ -81,11 +83,11 @@ nav ul {
     margin-right: auto;
 }
 .container .box:nth-child(1){
-    background: url("../images/header-bg 11.png");
+    background: url("../images/lllll.png");
     
 }
 .container .box:nth-child(2){
-    background: url("../images/header-bg 21.png");
+    background: url("../images/female.png");
     z-index: 2;
     transition: 0.5s;
     clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%);
@@ -107,7 +109,7 @@ footer {
     /* position: fixed; */
     background-size: cover;
     margin-top: 2%;
-    padding-top: 1.5rem;
+    padding-top: 1rem;
     left: 0;
     bottom: 0;
     width: 100%;
