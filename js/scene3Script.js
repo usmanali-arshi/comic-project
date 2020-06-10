@@ -2,6 +2,8 @@
 // using a counter to check on which stage the user is within the panel as each click increments the counter
 
 var panelPart4=0
+// To display the button for continue at the end of all the animations within the panel 
+document.getElementById("continue").style.display="none";
 function animatePanels(){
 
 	if(panelPart4==0){
@@ -30,7 +32,13 @@ function animatePanels(){
 		setTimeout(function(){
 			document.getElementById("panelx").src = "images/panel4/panel4-first.png" ;
 		}, 2000);
-		$('#dialogue4').fadeIn(1000);	
+		$('#dialogue4').fadeIn(1000);
+		setTimeout(function(){
+			document.getElementById("continue").style.display="block"; 
+		},2500);
+		setTimeout(function(){
+			$('#dialogue4').fadeOut(1000); 
+		},6000); 	
 	}
 }
 
