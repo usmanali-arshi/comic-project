@@ -1,5 +1,6 @@
 var panel2Part = 0;
 
+document.getElementById("end").style.display="none";
 document.addEventListener('keydown', logKey);
 
 function logKey(e) {
@@ -30,6 +31,7 @@ function logKey(e) {
   else if (panel2Part == 3 && e.which==32){
     $('#dialogue3').fadeIn(2000); 
     panel2Part++;
+    setTimeout(document.getElementById("end").style.display="block", 2000); 
     
 
   }
