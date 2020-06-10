@@ -14,7 +14,14 @@ function logKey(e) {
       Part++;
   
   }
-  else if (Part == 2 && e.which==32){
+
+else if (Part==2 && e.which==32){
+      setTimeout(document.getElementById("msg").src = "images/panel6/Whatsapp4.png", 2000);
+      Part++;
+  
+  }
+
+  else if (Part == 3 && e.which==32){
     
  	setTimeout(document.getElementById("end").style.display="block", 2000); 
     Part++;}
@@ -22,7 +29,7 @@ function logKey(e) {
 
  
 
-  else if(Part==3){
+  else if(Part==4){
       alert("What more do you want from him? He's numbed at this point!");
   }
 }
