@@ -4,12 +4,12 @@ document.addEventListener('keydown', logKey);
 
 function logKey(e) {
   if (panelPArt==0 && e.which==32){
-    document.getElementById("panel1").src = "../images/panel1/Classroom2.png" ;
+    document.getElementById("panel1").src = "Classroom2.png" ;
     panelPArt++;
     
   }
   else if (panelPArt==1 && e.which==32){
-    document.getElementById("panel1").src = "../images/panel1/Classroom2.png" ;
+    // document.getElementById("panel1").src = "../images/panel1/Classroom2.png" ;
       $('#dialogue1').fadeIn(2000);  
       $('#dialogue11').fadeIn(2000); 
       $('#dialogue12').fadeIn(2000);

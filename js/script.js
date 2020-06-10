@@ -1,5 +1,5 @@
 function openPage(pageUrl){
-    window.location.replace(pageUrl);
+    window.location.href = pageUrl;
   }
 
 function openPageNew(pageUrl){
