@@ -6,11 +6,24 @@
 body{
     justify-content: center;
 }
+@font-face{
+    font-family: "Khodijah Free";
+    src: url("../fonts/KhodijahFree.ttf");
+   /* src:
+    url('khodijah_free-webfont.woff')format("woff"),
+    url('khodijah_free-webfont.woff2')format("woff2"),
+    url('Khodijah_Free.otf')format('opentype');*/
+    
+}
+/*@font-face{
+    font-family: "Khodijah free";
+    src:url('/fonts/KhodijahFree.ttf');
+}*/
 h1{
-    font-family: 'Luckiest Guy', cursive;
+    font-family: "Khodijah Free", cursive;
     font-size: 4rem;
     color:black;
-    padding-top: 2.4em;
+    padding-top: 2.3em;
     text-align: center;
 }
 nav ul {
