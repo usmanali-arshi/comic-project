@@ -47,10 +47,13 @@ box-sizing: border-box;
   border:5px solid;
 }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 
 
 
 =======
+=======
+>>>>>>> Stashed changes
 img.eye {
   display: none;
   margin: 0 auto;
@@ -60,6 +63,9 @@ img.eye {
   max-width: 30%;
   max-height: 30%
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 img.dialogue3 {
   border: none;
