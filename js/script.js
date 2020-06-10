@@ -44,7 +44,7 @@ function logKey(e) {
 
   }
   else if(panelPArt==5){
-      console.log("Go to next page");
+      alert("Go to next page");
   }
 }
 
