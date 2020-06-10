@@ -71,7 +71,7 @@ nav ul {
     margin-right: auto;
     width: 90rem;
     height: 28rem;
-    border: 4px solig white;
+    border: 6px solid black;
 }
 .container .box{
     position: absolute;
