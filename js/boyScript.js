@@ -21,6 +21,7 @@ function logKey(e) {
   else if (panelPArt == 2 && e.which==32){
     $('#dialogue11').fadeOut(0); 
     $('#dialogue12').fadeOut(0);
+    $('#dialogue1').fadeOut(0); 
     $('#dialogue2').fadeIn(2000); 
 
     
