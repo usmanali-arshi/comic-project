@@ -27,9 +27,12 @@ box-sizing: border-box;
 
 .button:hover {opacity: 1}
 
+
+
 #panel{
   position: relative;
 }
+
 .image {
     
   width: 95%;
@@ -43,9 +46,21 @@ box-sizing: border-box;
   margin-bottom: 10px;
   border:5px solid;
 }
+<<<<<<< Updated upstream
 
 
 
+=======
+img.eye {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 8vw;
+  left: 10vw;
+  max-width: 30%;
+  max-height: 30%
+}
+>>>>>>> Stashed changes
 img.dialogue3 {
   border: none;
   display: none;
@@ -87,33 +102,4 @@ img.dialogue4 {
   left: 70vw;
   max-width: 30%;
   max-height: 30%
-}
-img{
-  border: 2px solid black;
-  width: 80%;
-  height:auto;
-}
-.row{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8rem;
-  margin-left: 7rem;
-}
-.column {
-  float: left;
-  padding:0;
-  width: 50%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  
-
-}
-
-.row:after {
-  
-  content: "";
-  display: table;
-  clear: both;
-  /* height:200px; */
 }
