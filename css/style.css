@@ -83,11 +83,11 @@ nav ul {
     margin-right: auto;
 }
 .container .box:nth-child(1){
-    background: url("../images/lllll.png");
+    background: url("../images/female.png");
     
 }
 .container .box:nth-child(2){
-    background: url("../images/female.png");
+    background: url("../images/male.png");
     z-index: 2;
     transition: 0.5s;
     clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%);
