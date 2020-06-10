@@ -7,10 +7,10 @@ body{
     justify-content: center;
 }
 h1{
-    font-family: 'Nosifer', cursive;
+    font-family: 'Luckiest Guy', cursive;
     font-size: 4rem;
-    color:white;
-    padding-top: 1.5em;
+    color:black;
+    padding-top: 2.4em;
     text-align: center;
 }
 nav ul {
@@ -25,6 +25,7 @@ nav ul {
     overflow: hidden;
     padding-top: 0;
     
+    
   }
   li {
     display: inline-block;
@@ -34,7 +35,7 @@ nav ul {
     display: block;
     color: white;
     text-align: center;
-    padding:0.7rem 6rem ;
+    padding:0.2rem 6rem ;
     text-decoration: none;
   }
   
@@ -49,19 +50,20 @@ nav ul {
   } */
 #mynav{
     text-align: center;
-    background-color: black;
+    background-color: #134B5C;
+    font-family: 'Sriracha', cursive;
 }
 
 .header{
     height: 20rem;
     /* width:99.5%; */
-    margin-top: 0.05%;
+    /*margin-top: 0.05%;*/
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../images/header-bg.png");
-    background-size: cover;
+    background-image: url("../images/borders-r.jpg");
+  /*  background-size: cover;
     background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-position: 50% 50%;*/
 }
 .container{
     position: relative;
@@ -81,11 +83,11 @@ nav ul {
     margin-right: auto;
 }
 .container .box:nth-child(1){
-    background: url("../images/header-bg 11.png");
+    background: url("../images/lllll.png");
     
 }
 .container .box:nth-child(2){
-    background: url("../images/header-bg 21.png");
+    background: url("../images/female.png");
     z-index: 2;
     transition: 0.5s;
     clip-path: polygon(50% 0, 0 0, 0 100%, 50% 100%);
@@ -107,12 +109,14 @@ footer {
     /* position: fixed; */
     background-size: cover;
     margin-top: 2%;
+    padding-bottom: 1%;
     padding-top: 1.5rem;
     left: 0;
     bottom: 0;
-    width: 100%;
-    height:5rem;
-    background: url("../images/footerDrop.png");
+    /*width: 100%;
+    height:5rem;*/
+    /*background: url("../images/footerDrop.png");*/
     color: white;
     text-align: center;
+    background-color: #134B5C;
   }
