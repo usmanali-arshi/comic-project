@@ -37,12 +37,22 @@ body{
     margin-top: 8rem;
   }
 
+  img.dialogue3 {
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 7vw;
+    left: 20vw;
+    max-width: 30%;
+    max-height: 30%
+  }
+
   img.dialogue1 {
     display: none;
     margin: 0 auto;
     position: absolute;
     top: 7vw;
-    left: 25vw;
+    left: 38vw;
     max-width: 30%;
     max-height: 30%
   }
@@ -52,7 +62,19 @@ body{
     margin: 0 auto;
     position: absolute;
     top: 7vw;
+    left: 55vw;
+    max-width: 30%;
+    max-height: 30%
+  }
+  img.dialogue4 {
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 8vw;
     left: 60vw;
     max-width: 30%;
     max-height: 30%
   }
+
+
+ 
