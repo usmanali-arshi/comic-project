@@ -5,13 +5,15 @@ body{
 
 
 .button {
-    background-color: #f4511e;
+    background-color: black;
+    font-family: 'Bangers', cursive;
     border: none;
     color: white;
     padding: 1rem 2rem;
     text-align: center;
     font-size: 1rem;
-    margin: 0.25rem 0.125rem;
+    /*margin: 0.25rem 0.125rem;*/
+    /*margin-bottom: 1rem;*/
     opacity: 0.6;
     transition: 0.3s;
     /* display: inline-block; */
@@ -25,24 +27,28 @@ body{
 
  #panel{
     position: relative;
+    /*margin: 0;*/
 }
   .image {
       
-    width: 80%;
-    max-width: 800px;
-    height: auto;
+    width: 95%;
+    /*max-width: 800px;*/
+    height: 580px;
     display: block;
     margin: auto;
     margin-right: auto;
-    margin-top: 8rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    border: 5px black solid;
+    /*margin-top: 8rem;*/
   }
 
   img.dialogue3 {
     display: none;
     margin: 0 auto;
     position: absolute;
-    top: 10vw;
-    left: 18vw;
+    top: 8vw;
+    left: 8vw;
     max-width: 30%;
     max-height: 30%
   }
@@ -51,8 +57,8 @@ body{
     display: none;
     margin: 0 auto;
     position: absolute;
-    top: 9vw;
-    left: 40vw;
+    top: 8vw;
+    left: 30vw;
     max-width: 30%;
     max-height: 30%
   }
@@ -61,7 +67,7 @@ body{
     display: none;
     margin: 0 auto;
     position: absolute;
-    top: 9vw;
+    top: 8vw;
     left: 55vw;
     max-width: 30%;
     max-height: 30%
@@ -71,10 +77,21 @@ body{
     margin: 0 auto;
     position: absolute;
     top: 8vw;
-    left: 60vw;
+    left: 70vw;
     max-width: 30%;
     max-height: 30%
   }
 
+.header{
+    background-image: url('../images/circletop.jfif');
+    width: 100%;
+    background-repeat: repeat;
+    height: 50px;
+}
 
- 
+.footer{
+    background-image: url('../images/circle.jfif');
+    width: 100%;
+    background-repeat: repeat;
+    height: 50px;
+}
