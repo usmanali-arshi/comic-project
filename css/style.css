@@ -7,10 +7,10 @@ body{
     justify-content: center;
 }
 h1{
-    font-family: 'Nosifer', cursive;
+    font-family: 'luckiest Guy', cursive;
     font-size: 4rem;
-    color:white;
-    padding-top: 1.5em;
+    color:black;
+    padding-top: 2.4em;
     text-align: center;
 }
 nav ul {
@@ -49,19 +49,19 @@ nav ul {
   } */
 #mynav{
     text-align: center;
-    background-color: black;
+    background-color: #134B5C;
 }
 
 .header{
     height: 20rem;
     /* width:99.5%; */
-    margin-top: 0.05%;
+    /*margin-top: 0.05%;*/
     margin-left: auto;
     margin-right: auto;
-    background-image: url("../images/header-bg.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
+    background-image: url("../images/borders-r.jpg");
+    /*background-size: cover;*/
+/*    background-repeat: repeat;*/
+    /*background-position: 60% 60%;*/
 }
 .container{
     position: relative;
@@ -105,14 +105,18 @@ nav ul {
 
 footer {
     /* position: fixed; */
-    background-size: cover;
+    /*background-size: cover;*/
     margin-top: 2%;
+    /*margin-bottom: 2%;*/
+    padding-bottom: 1%;
     padding-top: 1.5rem;
     left: 0;
     bottom: 0;
-    width: 100%;
+    /*width: 100%;
     height:5rem;
-    background: url("../images/footerDrop.png");
+    height: 100%;
+*/    /*background: url("../images/borders-r.jpg");*/
     color: white;
     text-align: center;
+    background-color: #134B5C;
   }
