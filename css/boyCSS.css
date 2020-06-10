@@ -8,10 +8,10 @@ body{
     background-color: #f4511e;
     border: none;
     color: white;
-    padding: 16px 32px;
+    padding: 1rem 2rem;
     text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
+    margin: 0.25rem 0.125rem;
     opacity: 0.6;
     transition: 0.3s;
     /* display: inline-block; */
@@ -42,7 +42,17 @@ body{
     margin: 0 auto;
     position: absolute;
     top: 7vw;
-    left: 23vw;
+    left: 25vw;
+    max-width: 30%;
+    max-height: 30%
+  }
+
+  img.dialogue2 {
+    display: none;
+    margin: 0 auto;
+    position: absolute;
+    top: 7vw;
+    left: 60vw;
     max-width: 30%;
     max-height: 30%
   }
