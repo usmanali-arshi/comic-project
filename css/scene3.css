@@ -1,0 +1,90 @@
+body{
+  margin:0;
+  padding:0;
+}
+.button {
+  background-color: black;
+  font-family: 'Bangers',cursive;
+  border: none;
+  color: white;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  /*margin: 0.25rem 0.125rem;*/
+  opacity: 0.6;
+  transition: 0.3s;
+  /* display: inline-block; */
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  margin-right: 2rem;
+}
+.button:hover {opacity: 1}
+
+#panel4{
+  position: relative;
+}
+.image {
+    
+  width: 85%;
+  /*max-width: 800px;*/
+  height: 580px ;
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border:5px solid;
+}
+img.fatima {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 12vw;
+  left: 38vw;
+  max-width: 30%;
+  max-height: 30%
+}
+
+img.anas {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 12vw;
+  left: 20vw;
+  max-width: 30%;
+  max-height: 30%
+}
+
+img.layla {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 10vw;
+  left: 65vw;
+  max-width: 30%;
+  max-height: 30%
+}
+img.kashif {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 6vw;
+  left: 55vw;
+  max-width: 30%;
+  max-height: 30%
+}
+
+.header{
+	height: 50px;
+	background-image: url('../images/panelborder.jpg');
+	width: 100%;
+	background-repeat: repeat;
+}
+.footer{
+	height: 50px;
+	background-image: url('../images/panelborder.jpg');
+	width: 100%;
+	background-repeat: repeat;
+	margin:0;
+}
