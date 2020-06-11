@@ -23,7 +23,10 @@ p {
     padding-right: 20%;
     text-align: left;
 }
-
+/*.navbar-brand{
+  background-color:#134B5C; 
+}
+*/
 img{
     border: 1px solid black;
     width: 35%;
@@ -58,7 +61,7 @@ img{
   font-size: 18px;  
 }
 #main{
-    background-color: #F9F1F0;
+    background-color: #134B5C;
 }
 
 #background1{
@@ -66,10 +69,10 @@ img{
 }
 
 #background2{
-    background-color: #FADCD9;
+    background-color: #98BAC3;
 }
 #background3{
-    background-color: #F79489;
+    background-color: #134B5C;
     color:white;
 }
 .thirdpage{
