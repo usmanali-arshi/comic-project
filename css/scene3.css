@@ -79,7 +79,7 @@ img.kashif {
 
 .header{
   height: 60px;
-  margin-top:4rem;
+  /*margin-top:4rem;*/
 	background-image: url('../images/panelborder.jpg');
 	width: 100%;
 	background-repeat: repeat;
