@@ -5,3 +5,4 @@ function openPage(pageUrl){
 function openPageNew(pageUrl){
 window.open(pageUrl);
 }
+var x = document.getElementById('mood').autoplay;
