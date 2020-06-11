@@ -29,7 +29,10 @@ img{
     width: 35%;
     height: auto;
 }
-
+.content0{
+    padding-top: 4%;
+    padding-bottom: 4%;
+}
 .content {
     padding-top: 4%;
     padding-bottom: 4%;
@@ -69,3 +72,45 @@ img{
     background-color: #F79489;
     color:white;
 }
+.thirdpage{
+	text-align: center;
+
+}
+.pics{
+	margin-left: 1%;
+	border: 2px solid black;
+	width: 300px;
+	height: 300px;
+}
+.content p{
+    text-align: center;
+}
+
+/* code copied from w3schools */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 80px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+  }
