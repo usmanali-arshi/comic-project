@@ -1,4 +1,5 @@
 var panelPArt = 0;
+document.getElementById("continue").style.display="none";
 
 document.addEventListener('keydown', logKey);
 
@@ -35,14 +36,11 @@ function logKey(e) {
     
 
   }
-  // else if (panelPArt == 4 && e.which==32){
-  //   $('#dialogue3').fadeIn(2000); 
-  //   panelPArt++;
-   
-
-  // }
 
   else if(panelPArt==4){
-      alert("Go to next page");
+    setTimeout(function(){
+      document.getElementById("continue").style.display="block"; 
+    },1000);
+      // alert("Go to next page");
   }
 }

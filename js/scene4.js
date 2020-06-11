@@ -35,7 +35,7 @@ function animatePanels(){
 		$('#dialogue4').fadeIn(1000);
 		setTimeout(function(){
 			document.getElementById("continue").style.display="block"; 
-		},2500);
+		},1500);
 		setTimeout(function(){
 			$('#dialogue4').fadeOut(1000); 
 		},6000); 	
