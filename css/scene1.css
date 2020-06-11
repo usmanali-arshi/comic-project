@@ -21,6 +21,7 @@ box-sizing: border-box;
   text-decoration: none;
   cursor: pointer;
   float: right;
+  margin-top: -4.3rem;;
   margin-right: 2rem;
 }
 
@@ -28,6 +29,8 @@ box-sizing: border-box;
 
 .header{
   height: 60px;
+  margin-top: 4.3em;
+  margin-bottom: 0.6rem;
   background-image: url('../images/border3.jpg');
   width: 100%;
   background-repeat: repeat;
@@ -39,9 +42,6 @@ box-sizing: border-box;
   background-repeat: repeat;
   margin:0;
 }
-}
-
-
 
 #panel{
   position: relative;
@@ -112,51 +112,3 @@ img.dialogue4 {
   max-width: 30%;
   max-height: 30%
 }
-
-/*img{
-  border: 2px solid black;
-  width: 80%;
-  height:auto;
-}*/
-/*.row{
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 8rem;
-  margin-left: 7rem;
-}
-.column {
-  float: left;
-  padding:0;
-  width: 50%;
-  height: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  
-
-}
-
-.row:after {
-  
-  content: "";
-  display: table;
-  clear: both;
-  /* height:200px; */
-}
-
-
-
-
-/*.whatsapp {
-    
-  width: 30%;
-
-  height: 80%;
-  display: block;
-  margin: auto;
-  margin-right: auto;
-  padding-top: 0;
-  margin-top: 5px;
-  margin-bottom: 10px;
-  border:5px solid;
-}
-*/

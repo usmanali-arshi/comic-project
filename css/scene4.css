@@ -17,6 +17,7 @@ body{
   text-decoration: none;
   cursor: pointer;
   float: right;
+  margin-top: -4.2rem;
   margin-right: 2rem;
 }
 .button:hover {opacity: 1}
@@ -40,7 +41,7 @@ img.anas {
   display: none;
   margin: 0 auto;
   position: absolute;
-  top: 20vw;
+  top: 24vw;
   left: 55vw;
   max-width: 30%;
   max-height: 30%
@@ -50,7 +51,7 @@ img.kashif {
   display: none;
   margin: 0 auto;
   position: absolute;
-  top: 20vw;
+  top: 24vw;
   left: 22vw;
   max-width: 30%;
   max-height: 30%
@@ -60,7 +61,7 @@ img.anas1 {
   display: none;
   margin: 0 auto;
   position: absolute;
-  top: 20vw;
+  top: 25vw;
   left: 55vw;
   max-width: 30%;
   max-height: 30%
@@ -69,14 +70,15 @@ img.kashif1 {
   display: none;
   margin: 0 auto;
   position: absolute;
-  top: 20vw;
+  top: 25vw;
   left: 22vw;
   max-width: 30%;
   max-height: 30%
 }
 
 .header{
-	height: 60px;
+  height: 60px;
+  margin-top:4rem;
 	background-image: url('../images/border4.jpg');
 	width: 100%;
 	background-repeat: repeat;

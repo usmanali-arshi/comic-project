@@ -44,8 +44,9 @@ body{
     text-decoration: none;
     cursor: pointer;
     float: right;
-    margin-top: 2rem;
-    margin-right: 8.4rem;
+    margin-top: -3rem;
+    margin-right: 4.4rem;
+
   }
   
   .button:hover {opacity: 1}
@@ -121,6 +122,7 @@ img.eye {
 
   .header{
   height: 100px;
+  margin-top:4rem;
   background-image: url('../images/border2.jpg');
   width: 100%;
   background-repeat: repeat;

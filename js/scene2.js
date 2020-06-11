@@ -1,8 +1,10 @@
+// variable to keep track of the scene
 var panel2Part = 0;
 
 document.getElementById("end").style.display="none";
 document.addEventListener('keydown', logKey);
 
+// function triggered when spacebar pressed, checks the scene and displays the dialogue and background
 function logKey(e) {
   if (panel2Part==0 && e.which==32){
     document.getElementById("panel2").src = "panel 2.png" ;

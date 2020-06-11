@@ -39,9 +39,8 @@ function animatePanels(){
     // alert("noob");
     // document.getElementById("end-game").css("background-color", "black");
     // $('header1').css("background-image","url('../images/black.png')");
-    document.getElementById("panelx").src = "images/panel6/black.png" ;
-
-
+    document.getElementById("panelx").src = "images/panel6/black.png";
+    
     // $('#end-game').fadeIn(2000);
     setTimeout(function(){
       document.getElementById("end").style.display="block"; 

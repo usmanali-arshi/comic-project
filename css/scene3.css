@@ -18,6 +18,7 @@ body{
   cursor: pointer;
   float: right;
   margin-right: 2rem;
+  margin-top: -4.15rem;;
 }
 .button:hover {opacity: 1}
 
@@ -61,7 +62,7 @@ img.layla {
   margin: 0 auto;
   position: absolute;
   top: 10vw;
-  left: 65vw;
+  left: 55vw;
   max-width: 30%;
   max-height: 30%
 }
@@ -76,7 +77,8 @@ img.kashif {
 }
 
 .header{
-	height: 60px;
+  height: 60px;
+  margin-top:4rem;
 	background-image: url('../images/panelborder.jpg');
 	width: 100%;
 	background-repeat: repeat;
