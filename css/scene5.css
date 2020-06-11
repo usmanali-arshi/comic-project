@@ -56,6 +56,8 @@ body{
   background-repeat: repeat;
   margin:0;
   margin-top: 2.5rem;
+  position: absolute;
+  bottom: 0;
 }
 
 

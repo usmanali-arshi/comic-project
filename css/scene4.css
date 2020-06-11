@@ -92,4 +92,6 @@ img.kashif1 {
 	width: 100%;
 	background-repeat: repeat;
 	margin:0;
+  position: absolute;
+  bottom:0;
 }
