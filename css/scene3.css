@@ -26,9 +26,9 @@ body{
 }
 .image {
     
-  width: 85%;
+  width: 62%;
   /*max-width: 800px;*/
-  height: 580px ;
+  height: auto ;
   display: block;
   margin: auto;
   margin-right: auto;
@@ -76,13 +76,13 @@ img.kashif {
 }
 
 .header{
-	height: 50px;
+	height: 60px;
 	background-image: url('../images/panelborder.jpg');
 	width: 100%;
 	background-repeat: repeat;
 }
 .footer{
-	height: 50px;
+	height: 60px;
 	background-image: url('../images/panelborder.jpg');
 	width: 100%;
 	background-repeat: repeat;
