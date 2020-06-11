@@ -1,0 +1,61 @@
+
+body{
+  margin:0;
+  padding:0;
+}
+.button {
+  background-color: black;
+  font-family: 'Bangers',cursive;
+  border: none;
+  color: white;
+  padding: 1rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+
+  opacity: 0.8;
+  transition: 0.3s;
+
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  margin-top: -5rem;;
+  margin-right: 2rem;
+}
+
+.button:hover {opacity: 1}
+
+#panel6{
+  position: relative;
+  cursor: pointer;
+}
+.whatsapp {
+    
+  width: 62%;
+
+  height: auto;
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border:5px solid;
+}
+
+.header{
+  height: 60px;
+  margin-bottom: 2rem;
+  /*margin-top: 4.5rem;*/
+  background-image: url('../images/border7.jpg');
+  width: 100%;
+  background-repeat: repeat;
+}
+.footer{
+  height: 60px;
+  background-image: url('../images/border7.jpg');
+  width: 100%;
+  background-repeat: repeat;
+  margin:0;
+  margin-top: 2.5rem;
+}
+
+

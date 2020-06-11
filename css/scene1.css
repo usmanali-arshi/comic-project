@@ -1,0 +1,114 @@
+body{
+  margin:0;
+  padding:0;
+}
+* {
+box-sizing: border-box;
+}
+
+.button {
+  background-color: black;
+  font-family: 'Bangers',cursive;
+  border: none;
+  color: white;
+  padding: 1.2rem 1.5rem;
+  text-align: center;
+  font-size: 1rem;
+  /*margin: 0.25rem 0.125rem;*/
+  opacity: 0.6;
+  transition: 0.3s;
+  /* display: inline-block; */
+  text-decoration: none;
+  cursor: pointer;
+  float: right;
+  margin-top: -4.3rem;;
+  margin-right: 2rem;
+}
+
+.button:hover {opacity: 1}
+
+.header{
+  height: 60px;
+  /*margin-top: 4.3em;*/
+  margin-bottom: 0.6rem;
+  background-image: url('../images/border3.jpg');
+  width: 100%;
+  background-repeat: repeat;
+}
+.footer{
+  height: 60px;
+  background-image: url('../images/border3.jpg');
+  width: 100%;
+  background-repeat: repeat;
+  margin:0;
+}
+
+#panel{
+  position: relative;
+}
+
+.image {
+    
+  width: 62%;
+  /*max-width: 800px;*/
+  height: auto ;
+  display: block;
+  margin: auto;
+  margin-right: auto;
+  padding-top: 0;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  /*border:5px solid;*/
+}
+img.eye {
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 8vw;
+  left: 10vw;
+  max-width: 30%;
+  max-height: 30%
+}
+img.dialogue3 {
+  border: none;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 12vw;
+  left: 20vw;
+  max-width: 30%;
+  max-height: 30%
+}
+
+img.dialogue1 {
+  border: none;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 12vw;
+  left: 40vw;
+  max-width: 30%;
+  max-height: 30%
+}
+
+img.dialogue2 {
+  border: none;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 12vw;
+  left: 54vw;
+  max-width: 30%;
+  max-height: 30%
+}
+/*HAHA"image*/
+img.dialogue4 {
+  border: none;
+  display: none;
+  margin: 0 auto;
+  position: absolute;
+  top: 13vw;
+  left: 68vw;
+  max-width: 30%;
+  max-height: 30%
+}
