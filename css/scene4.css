@@ -22,6 +22,9 @@ body{
 }
 .button:hover {opacity: 1}
 
+#panel5{
+  cursor: pointer;
+}
 #panel{
   position: relative;
 }
