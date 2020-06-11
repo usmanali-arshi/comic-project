@@ -8,6 +8,6 @@ window.open(pageUrl);
 // var x = document.getElementById('mood').autoplay;
 
 var ouchaudio = $("#song")[0];
-$("body").on('mouseenter', function(){
+$("#mood").on('mouseenter', function(){
   ouchaudio.play();
 });
