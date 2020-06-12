@@ -4,11 +4,15 @@
 var panelPart6=0;
 // To display the button for continue at the end of all the animations within the panel 
 document.getElementById("end").style.display="none";
+
+var emotional = $("#heart")[0];
+
 function animatePanels(){
 
   if(panelPart6==0){
     document.getElementById("panelx").src = "images/panel6/panel6-2.png" ;
     panelPart6++;
+    emotional.play();
   }
 
   else if(panelPart6==1){
