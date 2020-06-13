@@ -1,4 +1,4 @@
-https://usmanali-arshi.github.io/comic-project/
+https://usmanali-arshi.github.io/comic-project/#
 # Forbidden Love
 Project Description: 
 The project depicts the harsh reality of colourism and casteism within South Asian culture.
